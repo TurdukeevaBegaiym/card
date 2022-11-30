@@ -1,0 +1,42 @@
+*{
+  box-sizing: border-box;
+}
+.container{/* Задать ширину и выровнять по середине*/
+ max-width: 980px;
+ margin: 0 auto;
+ 
+ 
+}
+body{
+  background-image: url(./2c305f61f2e26f1ce35bbb52a0132020.jpg);
+  background-size: cover;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}  
+.card {
+  box-shadow: 5px 5px 10px black;
+  margin-bottom: 15px;
+} 
+.card .card-image {
+  width: 100%;
+}
+.col-6 {
+  flex:50% 0 0;
+  padding: 0 30px;
+}
+.card .card-content img {
+  width: 15%;
+}
+.card .card-content .main {
+  display: flex;
+
+}
+.card .card-content .main h1 {
+  margin-right: auto;
+  
+}
+.card .card-content .main span {
+  margin-top: 30px;
+}
