@@ -40,3 +40,16 @@ body{
 .card .card-content .main span {
   margin-top: 30px;
 }
+.card-image {
+  position: relative;
+}
+.one {
+  position: absolute;
+  top: 200px;
+  font-size: 35px;
+  
+
+}
+.card:hover {
+ transform: scale(0.6);
+}
