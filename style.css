@@ -43,13 +43,23 @@ body{
 .card-image {
   position: relative;
 }
-.one {
+/* .one {
   position: absolute;
   top: 200px;
   font-size: 35px;
+  margin: 10px;
   
 
-}
+} */
 .card:hover {
  transform: scale(0.6);
+ border-radius: 30px;
 }
+.card span {
+  
+}
+.col-12 {
+  flex:100% 0 0 ;
+  background-color: rgb(119, 119, 165);
+}
+
